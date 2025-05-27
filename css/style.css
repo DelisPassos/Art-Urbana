@@ -1,84 +1,91 @@
 /*Estilo Geral*/
 
 /*Cor Padrão dos Elementos*/
-*{
-    color:#25282e
+* {
+    color: #1c1c1c; /* Preto carvão */
 }
 
 /*Âncoras e Ícones Terão uma Transição de Meio Segundo no Hover*/
-a,i{
+a, i {
     transition: .5s;
     text-decoration: none;
 }
 
-/*Definir Cor Secundaria*/
-.secondary-color{
-    color: #555;
+/*Definir Cor Secundária*/
+.secondary-color {
+    color: #444; /* Cinza grafite */
 }
-.center-image{
+
+.center-image {
     background-size: cover;
     background-position: center;
 }
-.btn{
+
+.btn {
     text-decoration: none;
-    background-color: #25282e;
-    color: #fff;
+    background-color: #1c1c1c; /* Preto carvão */
+    color: #f5f5f5; /* Branco suave */
     padding: 7px 18px;
 }
-.btn:hover{
-    background-color: #333;
-    color: #fff;
+
+.btn:hover {
+    background-color: #444; /* Cinza grafite */
+    color: #f5f5f5;
 }
 
 /*Header*/
-#header{
+#header {
     text-align: center;
     padding: 20px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #c1b696; /* Dourado fosco */
 }
 
-#header{
+#header {
     margin-bottom: 0;
 }
 
-#logo-container{
+#logo-container {
     display: flex;
     justify-content: center;
 }
 
-#logo{
+#logo {
     width: 40px;
     margin-right: 15px;
 }
 
 /*Navbar*/
-#navbar{
+#navbar {
     padding: 10px;
     margin: 10px auto;
 }
-#navbar a{
+
+#navbar a {
     width: 80px;
-    color: #444;
-}
-#navbar a:hover{
-    color: #c1b696
+    color: #444; /* Cinza grafite */
 }
 
-/*Navbar*/
-.main-image{
+#navbar a:hover {
+    color: #c1b696; /* Dourado fosco */
+}
+
+/*Main Image*/
+.main-image {
     height: 400px;
     width: 90%;
     background-image: url("../img/g_1.jpg");
     position: relative;
 }
-#main-image-container{
+
+#main-image-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-.main-image-info{
-    background-color: #fff;
+
+.main-image-info {
+    background-color: #f5f5f5; /* Branco suave */
     padding: 25px;
     align-self: end;
     position: absolute;
@@ -87,27 +94,31 @@ a,i{
 }
 
 /*Gallery*/
-#img2{
+#img2 {
     background-image: url("../img/g_2.jpg");
 }
-#img3{
+#img3 {
     background-image: url("../img/g_3.jpg");
 }
-#img4{
+#img4 {
     background-image: url("../img/g_4.jpg");
 }
-#img5{
+#img5 {
     background-image: url("../img/g_5.jpg");
 }
-#img6{
+#img6 {
     background-image: url("../img/g_6.jpg");
 }
+
 #gallery-container h1,
 #gallery-container .col-md-6,
-#gallery-container .col-12{
+#gallery-container .col-12 {
     margin-bottom: 50px;
 }
-.small-image-container{
+
+.small-image-container {
     height: 250px;
     margin-bottom: 20px;
 }
+
+
