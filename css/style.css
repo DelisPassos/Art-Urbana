@@ -41,7 +41,7 @@ a,i{
     margin-bottom: 0;
 }
 
-#logo-containe{
+#logo-container{
     display: flex;
     justify-content: center;
 }
@@ -107,7 +107,7 @@ a,i{
 #gallery-container .col-12{
     margin-bottom: 50px;
 }
-.small-image-contaíner{
-    height: 100px;
+.small-image-container{
+    height: 250px;
     margin-bottom: 20px;
 }
