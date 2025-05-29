@@ -2,7 +2,12 @@
 
 /*Cor Padrão dos Elementos*/
 * {
-    color: #1c1c1c; /* Preto carvão */
+    color: #e0e0e0; /* Branco levemente acinzentado */
+}
+
+/* Cor de fundo da página */
+body {
+    background-color: #121212; /* Preto suave */
 }
 
 /*Âncoras e Ícones Terão uma Transição de Meio Segundo no Hover*/
@@ -13,7 +18,7 @@ a, i {
 
 /*Definir Cor Secundária*/
 .secondary-color {
-    color: #444; /* Cinza grafite */
+    color: #b0b0b0; /* Cinza claro */
 }
 
 .center-image {
@@ -24,20 +29,20 @@ a, i {
 .btn {
     text-decoration: none;
     background-color: #1c1c1c; /* Preto carvão */
-    color: #f5f5f5; /* Branco suave */
+    color: #e0e0e0; /* Branco levemente acinzentado */
     padding: 7px 18px;
 }
 
 .btn:hover {
-    background-color: #444; /* Cinza grafite */
-    color: #f5f5f5;
+    background-color: #383838; /* Cinza escuro */
+    color: #e0e0e0;
 }
 
 /*Header*/
 #header {
     text-align: center;
     padding: 20px;
-    border-bottom: 1px solid #c1b696; /* Dourado fosco */
+    border-bottom: 1px solid #7e1f27; /* Vermelho vinho */
 }
 
 #header {
@@ -47,6 +52,7 @@ a, i {
 #logo-container {
     display: flex;
     justify-content: center;
+    filter: brightness(0) invert(1);
 }
 
 #logo {
@@ -62,11 +68,11 @@ a, i {
 
 #navbar a {
     width: 80px;
-    color: #444; /* Cinza grafite */
+    color: #a92d62; /* Magenta escuro */
 }
 
 #navbar a:hover {
-    color: #c1b696; /* Dourado fosco */
+    color: #2cd0c4; /* Turquesa claro */
 }
 
 /*Main Image*/
@@ -85,7 +91,7 @@ a, i {
 }
 
 .main-image-info {
-    background-color: #f5f5f5; /* Branco suave */
+    background-color: #121212; /* Preto suave */
     padding: 25px;
     align-self: end;
     position: absolute;
@@ -109,6 +115,9 @@ a, i {
 #img6 {
     background-image: url("../img/g_6.jpg");
 }
+#img7 {
+    background-image: url("../img/g_7.jpg");
+}
 
 #gallery-container h1,
 #gallery-container .col-md-6,
@@ -117,8 +126,6 @@ a, i {
 }
 
 .small-image-container {
-    height: 250px;
+    height: 200px;
     margin-bottom: 20px;
 }
-
-
